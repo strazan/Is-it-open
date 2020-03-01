@@ -8,25 +8,34 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
   <title>Is it open?</title>
   <style>
+    *:focus {
+      outline: none;
+    }
+
     body {
       margin: 0;
       padding: 9px;
-      background-color: #fa8072;
+      background-color: #222;
       color: #fff;
       font-family: 'Roboto', sans-serif;
       width: 300px;
     }
 
+    p {
+      margin: 5px 0;
+      font-size: 1.2rem;
+    }
+
     .title {
-      font-size: 25px;
-      font-weight: 500;
+      font-size: 1.5rem;
+      font-weight: 300;
     }
 
     input {
       width: 286px;
       border: none;
-      height: 25px;
-      font-size: 15px;
+      height: 1.8rem;
+      font-size: 1rem;
       color: #fff;
       padding-left: 10px;
       background-color: transparent;
@@ -37,9 +46,14 @@
       color: rgba(255, 255, 255, 0.742);
     }
 
+    #output-isOpen {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
     #output-open-hours {
       margin: 0 0 5px 0;
-      font-size: 15px;
+      font-size: 1.5rem;
       color: rgb(242, 242, 242);
     }
 
