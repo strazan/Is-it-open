@@ -3,13 +3,13 @@
 
   "name": "Is it open?",
   "author": "Sigge Labor - https://github.com/strazan",
-  "version": "1.0",
-  "icons" : {"128": "icon/icon-128.png"},
+  "version": "1.1",
+  "icons": { "128": "icon/icon-128.png" },
   "description": "Quickly check if a store is open!",
   "permissions": ["activeTab"],
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": "icon/icon-48.png"
-    },
+  },
   "content_security_policy": "script-src 'self' https://maps.googleapis.com; object-src 'self'"
 }
